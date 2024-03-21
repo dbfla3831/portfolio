@@ -22,19 +22,19 @@
 
 ## 👤역할
 
-전처리
+- 전처리
 
-  각 데이터 정규화 (StandardScaler)
+  - 각 데이터 정규화 (StandardScaler)
 
-  세 개의 데이터에서 중복되는 gene별로 병합
+ -  세 개의 데이터에서 중복되는 gene별로 병합
 
-  균등한 분포를 위한 2차 정규화 (Quantile Normalizaion)
+  - 균등한 분포를 위한 2차 정규화 (Quantile Normalizaion)
 
-  모델 성능을 높이기 위한 차원 축소 (PCA)
+  - 모델 성능을 높이기 위한 차원 축소 (PCA)
 
-모델링
+- 모델링
 
-  앙상블 모델 (Random Forest, AdaBoost, XGBoost)구축
+  - 앙상블 모델 (Random Forest, AdaBoost, XGBoost)구축
 
 ## 🧩결론
 
