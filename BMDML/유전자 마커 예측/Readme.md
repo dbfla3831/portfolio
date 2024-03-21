@@ -22,6 +22,9 @@
 
 ## 👤역할
 
+![image](https://github.com/dbfla3831/portfolio/assets/80940143/86103296-ce3e-4530-99c8-aeb3f4a68cab)
+
+
 - 전처리
 
   - 각 데이터 정규화 (StandardScaler)
@@ -32,8 +35,14 @@
 - 모델링
 
   - 앙상블 모델 (Random Forest, AdaBoost, XGBoost)구축
+ 
+  - ![image](https://github.com/dbfla3831/portfolio/assets/80940143/b177ab6b-cab2-4234-8527-df6972de4382)
+
 
 ## 🧩결론
+
+![image](https://github.com/dbfla3831/portfolio/assets/80940143/763f49f5-4ed3-4728-bd9d-dbeb10710c39)
+
 
 - TOP 10 중 하나는 유방암 발생, 전이에 큰 역할인 유전자임을 확인
 
