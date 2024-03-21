@@ -13,7 +13,7 @@
 - 핵심 중간연계 표지자와 상관 계수 계산
 - 임상적 유의성을 보장하기 위해 생존분석(Kaplan - Meier)을 수행 후 예후 예측
 - 유방암의 중간연계 상태에서의 CTC 막 표지자로 식별
-- 결과를 토대로 논문 작성 ([Biochemistry and Biophysics Reports])(https://www.sciencedirect.com/science/article/pii/S2405580824000165?via%3Dihub)
+- 결과를 토대로 논문 작성 [Biochemistry and Biophysics Reports](https://www.sciencedirect.com/science/article/pii/S2405580824000165?via%3Dihub)
   
 ## 👤역할
 - 전처리
