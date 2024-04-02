@@ -1,0 +1,41 @@
+http://localhost/pro_main.html : main html
+http://localhost/pro_database_create.php : 데이터베이스 생성
+
+<table 생성>
+http://localhost/product_table_create.php : procudt_TBL 생성
+http://localhost/warehouse_table_create.php : warehouse_TBL 생성
+http://localhost/stock_table_create.php : stock_TBL 생성
+http://localhost/stock_info_table_create.php : stock_info_TBL 생성
+http://localhost/stock_incoming_table_create.php : stock_incoming_TBL 생성
+http://localhost/stock_outgoing_table_create.php : stock_outgoing_TBL생성
+http://localhost/product_info_table_create.php : product_info_TBL 생성
+http://localhost/product_incoming_table_create.php : product_incoming_TBL 생성
+http://localhost/product_outgoing_table_create.php : product_outgoing_TBL 생성
+http://localhost/order_table_create.php : order_TBL 생성
+
+<데이터 삽입>
+http://localhost/product_insert.php : product_TBL 데이터 삽입
+http://localhost/warehouse_insert.php : warehouse_TBL 데이터 삽입
+http://localhost/stock_insert.php : stock_TBL 데이터 삽입
+http://localhost/stock_info_insert.php : stock_info_TBL 데이터 삽입
+http://localhost/product_info_insert.php : product_info_TBL 데이터 삽입
+
+
+http://localhost/stock_incoming_insert.php : stock_incoming_TBL 데이터 삽입 X
+http://localhost/stock_outgoing_insert.php : stock_outgoing_TBL 데이터 삽입 X
+http://localhost/product_incoming_insert.php : product_incoming_TBL 데이터 삽입 X
+http://localhost/product_outgoing_insert.php : product_outgoing_TBL 데이터 삽입 X
+
+<방법>
+주문 하기
+	- 상품이 있을 경우 
+		- product_TBL의 상품 현재 수량에서 뺀 후 '배송 중'으로 표시 
+		- 상품 출고 현황에 추가(주문 시각으로부터 + 1시간)
+	- 상품이 없을 경우
+		- 원자재 주문하는 폼을 작성 -> 원자재 입고 현황에 원자재 주문한 수량을 표시
+		- 원자재가 입고 된 후 상품을 만들기 위해 원자재 출고 현황에 추가(주문 시각으로부터 +1시간)
+		- 상품 출고 현황에 추가(주문 시각으로 부터 + 2시간)
+		- 주문 현황에서 배송 상태가 '배송 시작'으로 변경
+
+
+stock_TBL의 수량 문제
