@@ -18,18 +18,27 @@
 ## ⚒Stack
 
 - Python
-  - 데이터 수집
-    - 웹크롤링
-  - 데이터 가공, 처리
-    - Numpy, Pandas등 패키지 사용
-  - 모델 구축 및 모델 성능 향상
-    - Scikit - learn, Keras, PCA, ..
-  - 시각화
-    - Matplotlib, Seaborn, Plotly, Folium
+    - 데이터 수집
+        - 웹크롤링을 통해 다양한 데이터 소스에서 데이터 수집
+        - BeautifulSoup을 사용
+    - 데이터 가공 및 처리
+        - Numpy, Pandas등 패키지를 활용한 효율적인 데이터 처리
+        - 대용량 데이터의 전처리 및 클렌징 작업 수행
+    - 모델 구축 및 모델 성능 향상
+        - 머신러닝
+            - Scikit-learn, XGBoost를 사용한 다양한 모델 구축 및 튜닝
+            - PCA를 사용한 차원 축소 기법을 통한 모델 성능 최적화
+        - 딥러닝
+            - Keras, TensorFlow를 사용한 신경망 모델 설계 및 훈련
+            - CNN, LSTM 등 다양한 딥러닝 아키텍처 구현
+            - Hyperparameter Tuning을 통한 모델 성능 향상
+    - 시각화
+        - Matplotlib, Seaborn, Plotly, Folium을 사용한 시각화 기법 적용
    
 - SQL
-  - 데이터 추출
-    - 검색, 갱신, 분기, 집약, 행간 비교 등 기초적인 문법 가능
+    - 기초 SQL 쿼리
+        - SELECT, WHERE, JOIN등 기본 쿼리를 사용한 데이터 추출
+        - 데이터 검색, 갱신, 분기 및 집계 작업 수행
    
 - HTML
   - 홈페이지 구현
